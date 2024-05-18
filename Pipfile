@@ -6,6 +6,8 @@ name = "pypi"
 [packages]
 pymongo = {extras = ["srv", "tls"], version = "*"}
 mongoengine = "*"
+pika = "*"
+faker = "*"
 
 [dev-packages]
 

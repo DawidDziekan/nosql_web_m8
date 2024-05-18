@@ -25,7 +25,6 @@ def search_quotes(criteria):
         return None
 
 if __name__ == "__main__":
-    connect
     while True:
         criteria = input("Enter your search criteria: ")
         results = search_quotes(criteria)
